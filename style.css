@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    height: 100vh; 
+    margin: 0; 
+}
+
+.apJL {
+    height: 420px;
+    width: 300px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+
+}
+
+.apJL form {
+    height: 100%;
+    width: 300px;
+    background-color:#777;
+}
+
+.apJL input[type=textfield] {
+    height: 35px;
+    width: 280px;
+    cursor: default;
+    font-family: 'Roboto', sans-serif;
+    background-color: #777;
+    color: #000;
+    padding: 10px;
+    text-align: right;
+    font-size: 50px;
+    border: 0;
+    outline: none;
+}
+
+.apJL input[type=button], input[type=reset] {
+    width: 22%;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    color: #000;
+    padding: 20px;
+    margin: 3px;
+    border: 0;
+    border-radius: 100%;
+}
+
+.apJL .orange {
+    background-color: #0000ff !important;
+    color: #ffffff !important;
+}
+
+.apJL .gray {
+    background-color: #ffffff !important;
+    color: #0000ff !important;
+}

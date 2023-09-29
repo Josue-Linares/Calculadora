@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculadora -- Josue-Linares</title>
+</head>
+<body>
+<div>
+
+    
+    <div class="apJL">
+        <form name="calculator">
+            <input type="textfield" name="ans" value="" autocomplete="off" readonly >
+
+            <input type="button" value="7" onclick="addValue('7')" class="gray">
+            <input type="button" value="8" onclick="addValue('8')" class="gray">
+            <input type="button" value="9" onclick="addValue('9')" class="gray">
+            <input type="button" value="+" onclick="addValue('+')" class="orange">
+            <br>
+            <input type="button" value="4" onclick="addValue('4')" class="gray">
+            <input type="button" value="5" onclick="addValue('5')" class="gray">
+            <input type="button" value="6" onclick="addValue('6')" class="gray">
+            <input type="button" value="-" onclick="addValue('-')" class="orange">
+            <br>
+            <input type="button" value="1" onclick="addValue('1')" class="gray">
+            <input type="button" value="2" onclick="addValue('2')" class="gray">
+            <input type="button" value="3" onclick="addValue('3')" class="gray">
+            <input type="button" value="X" onclick="addValue('*')" class="orange">
+            <br>
+            <input type="button" value="0" onclick="addValue('0')" class="gray">
+            <input type="reset" value="C">
+            <input type="button" value="=" onclick="calculateResult()">
+            <input type="button" value="/" onclick="addValue('/')" class="orange">
+        </form>
+    </div>
+</div>
+   
+
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
